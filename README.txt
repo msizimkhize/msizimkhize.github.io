@@ -1,1 +1,0 @@
-This is the portfolio highlighting some of the work I've done. 
