@@ -2,5 +2,5 @@ The webpage was created using the template 'Stellar' of  html5up, designed by @a
 
 https://html5up.net/
 
-###License
+##License
 Creative commons public license ("CCPL" OR "License")
