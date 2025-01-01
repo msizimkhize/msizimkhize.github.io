@@ -2,8 +2,7 @@ The webpage was created using the template 'Stellar' of html5up, designed by @aj
 
 https://html5up.net/
 
-##License 
-Creative commons public license ("CCPL" OR "License")
+License: Creative commons public license ("CCPL" OR "License")
 
 ***
 ### Reach Out on LinkedIn
