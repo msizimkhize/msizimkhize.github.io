@@ -1,4 +1,4 @@
-The webpage was created from the template 'Stellar' of html5up, designed by @ajlkn.
+This webpage was created from the template 'Stellar' of html5up, designed by @ajlkn.
 
 https://html5up.net/
 
