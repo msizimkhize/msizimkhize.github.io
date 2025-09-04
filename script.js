@@ -31,7 +31,7 @@ sections.forEach(section => observer.observe(section));
 
 function startTypewriter() {
   const el = document.getElementById('aboutText');
-  const fullText = `Hello, World! I'm a software architect transitioning into data analytics after focusing on software engineering, software \nfor pure and applied mathematics, machine learning and cybersecurity.`;
+  const fullText = `Hello, World! I'm Msizi Mkhize, a software architect transitioning into data analytics after focusing on software\nengineering, software for pure and applied mathematics, machine learning and cybersecurity.`;
   el.textContent = '';
   const caret = document.createElement("span");
   caret.className = "caret";
@@ -56,3 +56,4 @@ window.addEventListener("DOMContentLoaded", () => {
     document.getElementById("mobile-warning").style.display = "flex";
   }
 });
+
