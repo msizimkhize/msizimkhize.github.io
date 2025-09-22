@@ -114,3 +114,16 @@ document.addEventListener("click", (e) => {
     menu.classList.remove("open");
   }
 });
+
+  document.addEventListener("DOMContentLoaded", function() {
+    document.querySelectorAll("a[href]").forEach(link => {
+      const url = link.getAttribute("href");
+      // Skip if it's an anchor link (#...) or relative link
+      if (url.startsWith("#") || url.startsWith("/") || url.startsWith(window.location.origin)) {
+        return;
+      }
+      link.setAttribute("target", "_blank");
+      link.setAttribute("rel", "noopener noreferrer");
+    });
+  });
+
