@@ -35,7 +35,7 @@ function enableScrollAnimations() {
 // Typewriter effect
 function startTypewriter() {
   const el = document.getElementById('aboutText');
-  const fullText = `Hello, World! I'm a software architect transitioning into data analytics after focusing on software engineering, software \nfor pure and applied mathematics, machine learning and cybersecurity.`;
+  const fullText = `Hello, World! I'm a software architect transitioning into data analytics after focusing on software engineering, software \nfor pure and applied mathematics, machine learning and cybersecurity. The projects I am working on \nare built in SQL, Python, R, Power BI, Google Sheets and Tableau, with a focus on analysing intranational, \nfinancial and demographic data. My goal is to help businesses uncover insights and improve performance through \ncomprehensive reporting and streamlined automation.`;
   el.textContent = '';
   const caret = document.createElement("span");
   caret.className = "caret";
@@ -126,4 +126,5 @@ document.addEventListener("click", (e) => {
       link.setAttribute("rel", "noopener noreferrer");
     });
   });
+
 
