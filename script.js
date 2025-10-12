@@ -35,7 +35,7 @@ function enableScrollAnimations() {
 // Typewriter effect
 function startTypewriter() {
   const el = document.getElementById('aboutText');
-  const fullText = `Hello, World! I'm Msizi Mkhize, a software architect transitioning into data analytics after focusing on software engineering, software for pure and applied mathematics, machine learning and cybersecurity. \n\nThe projects I am working on are built in SQL, Python, R, Power BI, Google Sheets and Tableau, with a focus on analysing intranational, financial and demographic data. My goal is to help businesses uncover insights and improve performance through comprehensive reporting and streamlined automation.`;
+  const fullText = `Hello, World! I'm Msizi Mkhize, a software architect transitioning into data analytics after focusing on software engineering, software for pure and applied mathematics, machine learning and cybersecurity. I study at the University of Pretoria, and am in the process of completing my Bachelor of Science degree in Mathematics and Computer Science. \n\nThe projects I am working on are built in SQL, Python, R, Power BI, Google Sheets and Tableau, with a focus on analysing intranational, financial and demographic data. My goal is to help businesses uncover insights and improve performance through comprehensive reporting and streamlined automation. \n\nPlease reach out to me on LinkedIn if you want to chat.`;
   el.textContent = '';
   const caret = document.createElement("span");
   caret.className = "caret";
@@ -126,6 +126,7 @@ document.addEventListener("click", (e) => {
       link.setAttribute("rel", "noopener noreferrer");
     });
   });
+
 
 
 
