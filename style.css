@@ -59,7 +59,7 @@ nav.menu { display: none; position: absolute; top: 60px; left: 0;
   background-color: #1a1a1a; width: 200px; border: 1px solid #333; border-radius: 5px;
   flex-direction: column; animation: fadeIn 0.3s ease-out; z-index: 1000;
   font-family: "Reenie Beanie", cursive, "Segoe UI", sans-serif;
-  font-size: 3.4em;
+  font-size: 2em;
 }
 nav.menu.open { display: flex; }
 nav.menu a { padding: 15px 20px; border-bottom: 1px solid #333; color: white; }
@@ -153,6 +153,7 @@ h2 { margin-bottom: 3px; font-size: 3.4em; border-bottom: 0px solid #444; paddin
 
 /* Footer */
 footer { text-align: center; padding: 30px; background-color: #1e1e1e; color: #bbb; font-size: 0.9em; border-top: 1px solid #333; margin-top: auto; }
+
 
 
 
