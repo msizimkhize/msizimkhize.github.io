@@ -66,6 +66,13 @@ nav.menu a { padding: 15px 20px; border-bottom: 1px solid #333; color: white; }
 nav.menu a:last-child { border-bottom: none; }
 nav.menu a.active { background: #333; color: white !important; }
 
+.small-text{
+font-family: inherit;
+font-weight: inherit;
+font-style: inherit;
+font-size: 0.5em;
+}
+
 /* Sections */
 section { padding: 60px 20px; max-width: 1100px; margin: auto; }
 #about { padding-top: 160px; animation: fadeIn 1.5s ease-out; }
@@ -153,6 +160,7 @@ h2 { margin-bottom: 3px; font-size: 3.4em; border-bottom: 0px solid #444; paddin
 
 /* Footer */
 footer { text-align: center; padding: 30px; background-color: #1e1e1e; color: #bbb; font-size: 0.9em; border-top: 1px solid #333; margin-top: auto; }
+
 
 
 
