@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Msizi Mkhize</title>
+  <link rel="icon" href="images/favicon.png" type="image/png" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+  <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap" rel="stylesheet">
+</head>
+<body class="preload">
+
+  <div class="loading-overlay">
+    <div class="spinner"></div>
+  </div>
+
+  <div class="floating-menu-container">
+    <button id="menuTrigger"><span class="small-text">☰</span> Menu</button>
+    <nav class="menu">
+      <a href="#about">About</a>
+      <a href="#projects">Software Projects</a>
+      <a href="#data-projects">Data Projects</a>
+      <a href="#certifications">Tools</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p class="typing-text" id="aboutText"></p>
+    </section>
+
+    <section id="projects" class="hidden-section">
+      <h2>Software Projects</h2>
+      <div class="project-carousel">
+        <div class="project-slides" id="projectSlides">
+          <div class="project-slide" onclick="window.location.href='https://github.com/msizimkhize/Arithmetical-Triangle'">
+            <div class="project-image"><img src="images/pascal.png" alt="Project Image"></div>
+            <div class="project-text">
+              <h3>Arithmetical Triangle</h3>
+              <p>A web-based user interface for generating the coefficients of expanded binomial powers.</p>
+            </div>
+          </div>
+          <div class="project-slide" onclick="window.location.href='https://github.com/msizimkhize/Staff-Data'">
+            <div class="project-image"><img src="images/staff.png" alt="Project Image"></div>
+            <div class="project-text">
+              <h3>Staff Data Processor for Windows</h3>
+              <p>A C++ implemented MS Windows GUI for processing employee data and returning a web-based dashboard.</p>
+            </div>
+          </div>
+          <div class="project-slide" onclick="window.location.href='https://github.com/msizimkhize/Android-Black-SOD-App'">
+            <div class="project-image"><img src="images/smartphone.png" alt="Project Image"></div>
+            <div class="project-text">
+              <h3>Android Black SOD App</h3>
+              <p>The application prompts an Android user to activate the black screen of death using printed instructions</p>
+            </div>
+          </div>
+          <div class="project-slide" onclick="window.location.href='https://github.com/msizimkhize/Tic-Tac-Toe-ML-Training-Version-I'">
+            <div class="project-image"><img src="images/tictactoe.png" alt="Project Image"></div>	  
+            <div class="project-text">
+              <h3>Tic-Tac-Toe ML Training I</h3>
+              <p>A machine learning model was trained using initial data. This repository contains the most fundamental structure of the AI.</p>
+            </div>
+          </div>
+        </div>
+        <div class="project-dots" id="projectDots"></div>
+      </div>
+    </section>
+
+    <section id="data-projects" class="hidden-section">
+      <h2>Data Projects</h2>
+      <div class="data-carousel">
+        <div class="data-track" id="dataSlides">
+          <div class="slide">
+            <div class="card" onclick="window.location.href='https://github.com/msizimkhize/South-African-Crime-Statistics-Comparative-Analysis-Project'">
+              <i class="fas fa-shield-alt large-lightbulb"></i><br><br>		  
+              <h3>SA Crime Statistics: Comparative Data Analysis</h3>
+              <p>
+                ● Cleaned dataset using Pandas<br>  
+                ● Used BigQuery and R Studio to analyse the data<br> 
+                ● Created seven human trafficking demographic KPIs<br><br>
+              </p>
+            </div>
+            <div class="card" onclick="window.location.href='https://github.com/msizimkhize/Bread-and-Vital-Food-Cost-Analysis-South-Africa-and-International-'">
+              <i class="fas fa-egg large-lightbulb"></i><br><br>		  
+              <h3>Bread and Vital Food Cost Analysis</h3>
+              <p>
+                ● SA bread metric analysed alongside three vital foods<br>
+                ● Insights projected from five-year data<br><br><br>		
+              </p>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="card" onclick="window.location.href='https://github.com/msizimkhize/Vegetable-Prices-2022-MySQL-PowerBI'">
+              <i class="fas fa-carrot large-lightbulb"></i><br><br>		  
+              <h3>Vegetable Prices 2022: BI Analysis</h3>
+              <p>                                                                      		
+                ● Created vegetable metrics from foods dataset<br> 
+                ● ETL on the datasets created using SQL prompts<br>
+                ● Outcomes presented on MS Power BI<br>
+                ● Model rendered from six focal questions
+              </p>
+            </div>
+            <div class="card" onclick="window.location.href='https://github.com/msizimkhize/Fruit-Prices-2022-Python-Jupyter'">
+              <i class="fas fa-lemon large-lightbulb"></i><br><br>		  
+              <h3>Fruit Prices 2022: ML Models</h3>
+              <p>
+                ● Trained and tested models on fruit price dataset<br>
+                ● Jupyter Notebook and Python for visualising trend<br>
+                ● Interactive dashboard generated on Tableau<br>
+                ● Created linear regression and random forest model<br>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="data-dots" id="dataDots"></div>
+      </div>
+    </section>
+
+    <section id="certifications" class="hidden-section">
+      <h2>Toolkit</h2>
+      <div class="certifications-wrapper">
+        <div class="certification"><i class="fas fa-lightbulb"></i><h3>R</h3><p>Intermediate</p></div>
+        <div class="certification"><i class="fas fa-lightbulb"></i><h3>Python</h3><p>Advanced</p></div>
+        <div class="certification"><i class="fas fa-lightbulb"></i><h3>JavaScript</h3><p>Intermediate</p></div>
+        <div class="certification"><i class="fas fa-lightbulb"></i><h3>C++</h3><p>Advanced</p></div>
+        <div class="certification"><i class="fas fa-lightbulb"></i><h3>MATLAB</h3><p>Basic</p></div>
+        <div class="certification"><i class="fas fa-lightbulb"></i><h3>Java</h3><p>Intermediate</p></div>
+        <div class="certification"><i class="fas fa-lightbulb"></i><h3>SQL</h3><p>Advanced</p></div>
+        <div class="certification"><i class="fas fa-lightbulb"></i><h3>HTML/CSS</h3><p>Intermediate</p></div>	  
+        <div class="certification"><i class="fas fa-database"></i><h3>BigQuery</h3><p>Intermediate</p></div>
+        <div class="certification"><i class="fas fa-database"></i><h3>MS Power BI</h3><p>Intermediate</p></div>
+        <div class="certification"><i class="fas fa-database"></i><h3>Tableau</h3><p>Advanced</p></div>
+        <div class="certification"><i class="fas fa-database"></i><h3>MySQL</h3><p>Basic</p></div>  
+        <div class="certification"><i class="far fa-window-restore"></i><h3>Android Studio</h3><p>Advanced</p></div>
+        <div class="certification"><i class="devicon-firebase-plain"></i><h3>Firebase</h3><p>Intermediate</p></div>  
+        <div class="certification"><i class="far fa-window-restore"></i><h3>Qt Creator</h3><p>Intermediate</p></div>
+        <div class="certification"><i class="fas fa-layer-group"></i><h3>Agile/Scrum</h3><p>Intermediate</p></div>
+        <div class="certification"><i class="fas fa-layer-group"></i><h3>High-Fidelity Prototyping</h3><p>Intermediate</p></div>
+        <div class="certification"><i class="fas fa-layer-group"></i><h3>Usability Testing</h3><p>Intermediate</p></div>
+        <div class="certification"><i class="fas fa-layer-group"></i><h3>Heuristic Evaluation</h3><p>Intermediate</p></div>  
+      </div>
+    </section>
+
+    <section id="contact" class="hidden-section">
+      <h2>Get in Touch</h2>
+      <div class="contact-wrapper">
+        <div class="contact-item">
+          <a href="mailto:msizimkhize.rsa@gmail.com">
+              <i class="fas fa-envelope"></i>
+              <h3>Email Me At</h3>
+          </a>
+          <p><a href="mailto:msizimkhize.rsa@gmail.com">msizimkhize.rsa@gmail.com</a></p>
+        </div>
+        <div class="contact-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <h3>Where to Find Me</h3>
+          <p>Durban, KZN</p>
+        </div>
+        <div class="contact-item">
+          <a href="https://www.linkedin.com/in/msizimkhize" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-linkedin"></i>
+              <h3>Message Me On</h3>
+          </a>
+          <p><a href="https://www.linkedin.com/in/msizimkhize" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Msizi Mkhize. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
