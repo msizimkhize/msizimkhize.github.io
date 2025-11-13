@@ -218,9 +218,9 @@ footer { text-align: center; padding: 30px; background-color: #1e1e1e; color: #b
     margin-bottom: 25px;
   }
   
-  /* About Me text - centered on mobile */
+  /* About Me text - left aligned on mobile */
   #about .typing-text {
-    text-align: center;
+    text-align: left;
     font-size: 1em;
   }
   
@@ -297,7 +297,7 @@ footer { text-align: center; padding: 30px; background-color: #1e1e1e; color: #b
     font-size: 1.2em;
   }
   
-  /* Bullet list styling for mobile with invisible bullets and hanging indent */
+  /* Bullet list styling for mobile with proper text indentation */
   .bullet-list {
     display: block;
     text-align: left;
@@ -307,16 +307,12 @@ footer { text-align: center; padding: 30px; background-color: #1e1e1e; color: #b
   
   .bullet-item {
     display: block;
-    padding-left: 1.5em;
-    text-indent: -1.5em;
+    padding-left: 0;
+    text-indent: 0;
     margin-bottom: 0.8em;
+    margin-left: 0;
     line-height: 1.5;
     font-size: 1em;
-  }
-  
-  /* Make bullet invisible on mobile */
-  .bullet-item::first-line {
-    color: #1a1a1a;
   }
   
   .bullet-item:last-child {
@@ -372,7 +368,7 @@ footer { text-align: center; padding: 30px; background-color: #1e1e1e; color: #b
     word-break: break-word;
   }
   
-  /* Menu adjustments - Show only bold "Menu" text on mobile */
+  /* Menu adjustments - Show only "Menu" text on mobile */
   .floating-menu-container {
     top: 15px;
     left: 15px;
@@ -387,7 +383,7 @@ footer { text-align: center; padding: 30px; background-color: #1e1e1e; color: #b
     display: none;
   }
   
-  #menuTrigger::before {
+  #menuTrigger::after {
     content: "Menu";
     font-size: 1.0478em;
     font-weight: bold;
@@ -397,43 +393,29 @@ footer { text-align: center; padding: 30px; background-color: #1e1e1e; color: #b
     width: 180px;
   }
   
-  /* Footer - Force visibility on mobile */
+  /* Footer - Ensure visibility on mobile */
   footer {
-    padding: 20px 15px !important;
-    font-size: 0.85em !important;
+    padding: 20px 15px;
+    font-size: 0.85em;
     display: block !important;
     visibility: visible !important;
-    opacity: 1 !important;
-    min-height: 60px !important;
-    position: relative !important;
-    clear: both !important;
-    background-color: #1e1e1e !important;
-    color: #bbb !important;
-    margin-top: 40px !important;
+    min-height: 60px;
+    position: relative;
+    clear: both;
   }
   
-  /* Ensure sections don't overlap footer */
-  #contact {
-    margin-bottom: 0;
-    padding-bottom: 40px;
-  }
-  
-  /* Ensure body structure allows footer to show */
-  html {
-    height: 100%;
-  }
-  
+  /* Ensure body and main have proper height */
   body {
-    min-height: 100%;
-    display: flex !important;
-    flex-direction: column !important;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
   }
   
   main {
-    flex: 1 0 auto !important;
+    flex: 1 0 auto;
   }
   
   footer {
-    flex-shrink: 0 !important;
+    flex-shrink: 0;
   }
 }
