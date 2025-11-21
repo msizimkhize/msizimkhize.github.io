@@ -34,24 +34,14 @@
 @keyframes spin { from {transform: rotate(0);} to {transform: rotate(360deg);} }
 @keyframes fadeIn { from {opacity: 0; transform: translateY(20px);} to {opacity: 1; transform: translateY(0);} }
 
-/* Page fade-in from black */
-body.loading {
-  opacity: 0;
+/* Page fade-in from black - single time only */
+body {
+  background-color: #000;
+  transition: background-color 1s ease-out;
 }
 
-body.fade-in {
-  animation: pageFadeIn 1s ease-out forwards;
-}
-
-@keyframes pageFadeIn {
-  from {
-    opacity: 0;
-    background-color: #000;
-  }
-  to {
-    opacity: 1;
-    background-color: #121212;
-  }
+body.loaded {
+  background-color: #121212;
 }
 
 .reenie-beanie-regular {
@@ -228,10 +218,14 @@ footer { text-align: center; padding: 30px; background-color: #1e1e1e; color: #b
     margin-bottom: 25px;
   }
   
-  /* About Me text - left aligned on mobile */
+  /* About Me text - centered on mobile */
   #about .typing-text {
-    text-align: left;
+    text-align: center;
     font-size: 1em;
+  }
+  
+  #about p {
+    text-align: center;
   }
   
   /* Software Projects - Mobile Layout */
@@ -281,7 +275,7 @@ footer { text-align: center; padding: 30px; background-color: #1e1e1e; color: #b
   /* Data Projects - Mobile Layout - One card per slide */
   .slide {
     flex-direction: column;
-    gap: 0;
+    gap: 20px;
     padding: 0 15px;
     justify-content: flex-start;
   }
@@ -293,13 +287,21 @@ footer { text-align: center; padding: 30px; background-color: #1e1e1e; color: #b
     font-size: 1em;
   }
   
+  .card:nth-child(2) {
+    display: none;
+  }
+  
+  .slide:nth-child(1) .card:nth-child(2) {
+    display: flex;
+  }
+  
   .card h3 {
     text-align: center;
     margin-left: 0;
     font-size: 1.2em;
   }
   
-  /* Bullet list styling for mobile with proper text indentation */
+  /* Bullet list styling for mobile with invisible bullets and hanging indent */
   .bullet-list {
     display: block;
     text-align: left;
@@ -309,12 +311,16 @@ footer { text-align: center; padding: 30px; background-color: #1e1e1e; color: #b
   
   .bullet-item {
     display: block;
-    padding-left: 0;
-    text-indent: 0;
+    padding-left: 1.5em;
+    text-indent: -1.5em;
     margin-bottom: 0.8em;
-    margin-left: 0;
     line-height: 1.5;
     font-size: 1em;
+  }
+  
+  /* Make bullet invisible on mobile */
+  .bullet-item::first-line {
+    color: #1a1a1a;
   }
   
   .bullet-item:last-child {
@@ -370,7 +376,7 @@ footer { text-align: center; padding: 30px; background-color: #1e1e1e; color: #b
     word-break: break-word;
   }
   
-  /* Menu adjustments */
+  /* Menu adjustments on mobile */
   .floating-menu-container {
     top: 15px;
     left: 15px;
@@ -381,22 +387,47 @@ footer { text-align: center; padding: 30px; background-color: #1e1e1e; color: #b
     padding: 8px 12px;
   }
   
-  #menuTrigger::after {
-    content: " Menu";
-    font-size: 1.0478em;
-    font-weight: bold;
-  }
-  
   nav.menu {
     width: 180px;
   }
   
-  /* Footer - Ensure visibility on mobile */
+  /* Footer - Force visibility on mobile */
   footer {
-    padding: 20px 15px;
-    font-size: 0.85em;
-    display: block;
-    visibility: visible;
-    min-height: 60px;
+    padding: 20px 15px !important;
+    font-size: 0.85em !important;
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    min-height: 60px !important;
+    position: relative !important;
+    clear: both !important;
+    background-color: #1e1e1e !important;
+    color: #bbb !important;
+    margin-top: 40px !important;
+  }
+  
+  /* Ensure sections don't overlap footer */
+  #contact {
+    margin-bottom: 0;
+    padding-bottom: 40px;
+  }
+  
+  /* Ensure body structure allows footer to show */
+  html {
+    height: 100%;
+  }
+  
+  body {
+    min-height: 100%;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  
+  main {
+    flex: 1 0 auto !important;
+  }
+  
+  footer {
+    flex-shrink: 0 !important;
   }
 }
