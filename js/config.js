@@ -39,8 +39,7 @@ const CONFIG = {
     { role: "Mathematics Teaching Assistant", org: "Department of Basic Education", dates: "Apr 2023 – Aug 2023",
       points: [
         "Developed structured, milestone-driven lesson plans and educational materials tailored for diverse student bodies.",
-        "Simplified and communicated complex mathematical concepts and relational logic to ensure accessible, effective learning.",
-        "Designed frameworks to systematically monitor, analyse, and evaluate cohort progression against key learning milestones."
+        "Simplified and communicated complex mathematical concepts and relational logic to ensure accessible, effective learning."
       ],
       tags: ["SIEM","Log analysis","Splunk","Incident response"] },
     { role: "Data Capturer and Quality Assurance", org: "Statistics South Africa", dates: "Mar 2022 – Apr 2022",
