@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Msizi Mkhize</title>
+<link rel="icon" type="image/png" href="assets/images/favicon.png">
+<meta name="description" content="Portfolio of a mathematics and computer science student focused on security analytics and data engineering.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="wrap">
+    <nav aria-label="Main">
+      <div class="links">
+        <a href="#about" data-text="About">About</a><a href="#experience" data-text="Experience">Experience</a><a href="#projects" data-text="Projects">Projects</a><a href="#skills" data-text="Skills">Skills</a><a href="#contact" data-text="Contact">Contact</a>
+      </div>
+    </nav>
+  </div>
+</div>
+
+<div class="wrap">
+
+  <header class="hero" id="top"> 
+    <div class="namebox">
+      <!-- PHOTO: hidden automatically if assets/images/profile.jpg does not exist. To remove it for good, delete this img line. -->
+      <img class="photo" id="photo" alt="" hidden>
+    </div>
+    <p class="role" id="role"></p>
+    <p class="lede" id="lede"></p>
+    <div class="btns" id="heroBtns"></div>
+  </header>
+
+  <section id="about" class="about">
+    <h2>About</h2>
+    <div id="aboutText"></div>
+  </section>
+
+  <section id="experience"><h2>Work experience</h2><div class="timeline" id="expList"></div></section>
+  <section id="projects" class="projects"><h2>Projects</h2><div id="projList"></div></section>
+  <section id="skills"><h2>Skills</h2><div class="toolgrid" id="toolGrid"></div></section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <div class="contact-grid" id="contactGrid"></div>
+  </section>
+
+  <footer id="foot"></footer>
+</div>
+
+<script src="js/config.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
