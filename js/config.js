@@ -63,19 +63,29 @@ const CONFIG = {
   projects: [
     { icon: "fa fa-code", name: "Synapse Tic-Tac-Toe",
       text: "A browser-based Tic-Tac-Toe web application powered by Brain.js, featuring a neural network trained across three distinct difficulty levels.",
-      link: "https://github.com/msizimkhize/Tic-Tac-Toe-Neural-Network" },
-    { icon: "fas fa-database", name: "Agritech Analysis",
+      link: "https://github.com/msizimkhize/Synapse-Tic-Tac-Toe" },
+    { icon: "fas fa-database", name: "Oleritech Analysis",
       text: "Built a relational MySQL database <br>and interactive Power BI dashboards <br>to model, analyse, and visualise 2022 vegetable pricing trends and market fluctuations.",
-      link: "https://github.com/YOUR-USERNAME/etl-pipeline" },
+      link: "https://github.com/msizimkhize/Vegetable-Prices-2022-MySQL-PowerBI" },
     { icon: "fa fa-code", name: "Archives Manager",
       text: "Developed a C++ Qt desktop application to systematically categorise, date, label, and filter temporal journal entries and <br>archived records.",
       link: "https://github.com/msizimkhize/Journal-Archives-and-Records-Manager" },
     { icon: "fas fa-database", name: "Crime Data Pipeline",
       text: "Constructed an ETL pipeline using Python, Pandas, and R to process multi-year national crime statistics <br>and perform statistical modeling on regional and temporal trends.",
-      link: "https://github.com/msizimkhize/South-African-Crime-Statistics-Comparative-Analysis-Project" },
+      link: "https://github.com/msizimkhize/South-African-Crime-Statistics-Analysis" },
     { icon: "fas fa-database", name: "Global Food Index",
       text: "Built an R data pipeline to ingest, wrangle, and model global staple food prices, evaluating longitudinal inflation trends and purchasing power parity metrics across international markets.",
-      link: "https://github.com/YOUR-USERNAME/traffic-visualiser" }
+      link: "https://github.com/msizimkhize/Bread-and-Vital-Food-Cost-Analysis" },
+	{ icon: "fas fa-database", name: "Pomitech Analysis",
+      text: "Utilised Python notebooks to build linear regression and Random Forest models, paired with an interactive Tableau visualisation to analyse fruit agriculture metrics.",
+      link: "https://github.com/msizimkhize/Vegetable-Prices-2022-MySQL-PowerBI" },
+    { icon: "fa fa-code", name: "Staff Tracker",
+      text: "Developed a C++ Qt desktop application to efficiently manage, store, and update staff information, employment statuses, and organisational records for HR management.",
+      link: "https://github.com/msizimkhize/Staff-Data-Management-System" },
+	{ icon: "fa fa-code", name: "TextIC",
+      text: "Built an Android application in Java that retrieves text directly from the clipboard and dynamically enlarges it to arbitrary display sizes for seamless readability.",
+      link: "https://github.com/msizimkhize/Staff-Data-Management-System" }
+	  
   ],
 
   // SKILLS: type is "code" (languages), "tech" (frameworks/platforms) or "method" (ways of working). level is shown under the name.
