@@ -8,7 +8,7 @@ const CONFIG = {
   name: "Msizi Mkhize",
   location: "Durban, KZN",
   role: "你好世界。",
-  lede: "I'm Msizi Mkhize. I build secure, data-driven systems from the ground up, combining the structural discipline of an engineering background with advanced computational logic. 欢迎！",
+  lede: "I'm Msizi Mkhize. I build secure, data-driven systems from the ground up, combining the structural discipline of an engineering background with advanced computational logic.",
 
   // PHOTO: save your round 389x389 picture as assets/images/profile.png (or change the path).
   // If the file is missing, or this is set to "", the photo is simply hidden.
