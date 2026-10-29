@@ -62,7 +62,7 @@ const CONFIG = {
   // link: the project icon and title both link here (opens in a new tab). Replace the YOUR-USERNAME placeholders with your real URLs.
   projects: [
     { icon: "fa fa-code", name: "Synapse Tic-Tac-Toe",
-      text: "A browser-based Tic-Tac-Toe web application powered by Brain.js, featuring a neural network trained across three distinct difficulty levels.",
+      text: "Created a browser-based Tic-Tac-Toe web application powered by Brain.js, featuring a neural network trained across three distinct difficulty levels.",
       link: "https://github.com/msizimkhize/Synapse-Tic-Tac-Toe" },
     { icon: "fas fa-database", name: "Oleritech Analysis",
       text: "Built a relational MySQL database <br>and interactive Power BI dashboards <br>to model, analyse, and visualise 2022 vegetable pricing trends and market fluctuations.",
