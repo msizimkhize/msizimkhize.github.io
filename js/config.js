@@ -73,18 +73,18 @@ const CONFIG = {
     { icon: "fas fa-database", name: "Crime Data Pipeline",
       text: "Constructed an ETL pipeline using Python, Pandas, and R to process multi-year national crime statistics <br>and perform statistical modeling on regional and temporal trends.",
       link: "https://github.com/msizimkhize/South-African-Crime-Statistics-Analysis" },
-    { icon: "fas fa-database", name: "Global Food Index",
-      text: "Built an R data pipeline to ingest, wrangle, and model global staple food prices, evaluating longitudinal inflation trends and purchasing power parity metrics across international markets.",
-      link: "https://github.com/msizimkhize/Bread-and-Vital-Food-Cost-Analysis" },
+    { icon: "fa fa-code", name: "TextIC",
+      text: "Built an Android application in Java that retrieves text directly from the clipboard and dynamically enlarges it to arbitrary display sizes for seamless readability.",
+      link: "https://github.com/msizimkhize/Staff-Data-Management-System" },
 	{ icon: "fas fa-database", name: "Pomitech Analysis",
       text: "Utilised Python notebooks to build linear regression and Random Forest models, paired with an interactive Tableau visualisation to analyse fruit agriculture metrics.",
       link: "https://github.com/msizimkhize/Vegetable-Prices-2022-MySQL-PowerBI" },
     { icon: "fa fa-code", name: "Staff Tracker",
       text: "Developed a C++ Qt desktop application to efficiently manage, store, and update staff information, employment statuses, and organisational records for HR management.",
       link: "https://github.com/msizimkhize/Staff-Data-Management-System" },
-	{ icon: "fa fa-code", name: "TextIC",
-      text: "Built an Android application in Java that retrieves text directly from the clipboard and dynamically enlarges it to arbitrary display sizes for seamless readability.",
-      link: "https://github.com/msizimkhize/Staff-Data-Management-System" }
+	{ icon: "fas fa-database", name: "Global Food Index",
+      text: "Built an R data pipeline to ingest, wrangle, and model global staple food prices, evaluating longitudinal inflation trends and purchasing power parity metrics across international markets.",
+      link: "https://github.com/msizimkhize/Bread-and-Vital-Food-Cost-Analysis" }
 	  
   ],
 
