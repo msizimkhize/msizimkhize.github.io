@@ -1,12 +1,13 @@
 from datetime import datetime
 
+# Updated to use your actual GitHub Pages domain
 domain = "https://msizimkhize.github.io"
 
 # Key: local file, Value: clean URL route slug
 pages = {
-    "index.html": "",           # Renders as: https://yourdomain.com/
-    #"projects.html": "projects",  # Renders as: https://yourdomain.com/projects
-    #"contact.html": "contact"     # Renders as: https://yourdomain.c
+    "index.html": ""           # Renders as: https://msizimkhize.github.io/
+    #"projects.html": "projects", 
+    #"contact.html": "contact"     
 }
 
 xml_content = [
