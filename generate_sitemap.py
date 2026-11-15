@@ -1,12 +1,12 @@
 from datetime import datetime
 
-domain = "https://yourdomain.com"
+domain = "https://msizimkhize.github.io"
 
 # Key: local file, Value: clean URL route slug
 pages = {
     "index.html": "",           # Renders as: https://yourdomain.com/
-    "projects.html": "projects",  # Renders as: https://yourdomain.com/projects
-    "contact.html": "contact"     # Renders as: https://yourdomain.com/contact
+    #"projects.html": "projects",  # Renders as: https://yourdomain.com/projects
+    #"contact.html": "contact"     # Renders as: https://yourdomain.c
 }
 
 xml_content = [
